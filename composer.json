@@ -1,0 +1,45 @@
+{
+  "name": "svil4ok/laravel-query-filters",
+  "description": "",
+  "keywords": [
+    "laravel",
+    "model",
+    "search",
+    "query",
+    "filter"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Svilen Popov",
+      "email": "svil4ok@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "illuminate/database": "~5.0",
+    "illuminate/http": "~5.0",
+    "illuminate/support": "~5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.4",
+    "orchestra/testbench": "^3.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "SGP\\QueryFilters\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SGP\\QueryFilters\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SGP\\QueryFilters\\ServiceProvider"
+      ]
+    }
+  }
+}
