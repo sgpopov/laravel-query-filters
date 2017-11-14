@@ -52,10 +52,10 @@ abstract class QueryFilters
         $filters = $this->filters();
 
         foreach ($filters as $filter => $value) {
-            $filter = Str::ucfirst(Str::lower($filter));
+            $filter = Str::studly(Str::lower($filter));
 
             if ($filter === 'Order') {
-                $orderBy = Str::ucfirst(Str::lower($value));
+                $orderBy = Str::studly(Str::lower($value));
                 $method = "orderBy{$orderBy}";
             } else {
                 $method = "filterBy{$filter}";
