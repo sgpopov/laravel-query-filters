@@ -1,7 +1,7 @@
 # Laravel Query Filters
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://travis-ci.org/svil4ok/laravel-query-filters.svg?branch=master)](https://travis-ci.org/svil4ok/laravel-query-filters)
+[![Build Status](https://travis-ci.org/sgpopov/laravel-query-filters.svg?branch=master)](https://travis-ci.org/sgpopov/laravel-query-filters)
 
 ## About 
 
